@@ -1,0 +1,375 @@
+body{
+    background-color: #fff;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 84px;
+    background-color: black;
+}
+
+.logo{
+    height: 80px;
+}
+
+
+footer{
+    min-height: 70px;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 70%;
+}
+
+
+#nomegrupo{
+    position: absolute;
+    font-size: 80px;
+    font-style: italic;
+}
+
+#instrucoes{
+    width: 60px;
+    height: 32px;
+    font-size: 28px;
+    padding: 5px 10px;
+    position: fixed;
+    color: whitesmoke;
+    background-color: black;
+    cursor: pointer;
+}
+
+#instrucoes:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+#caixa-ajuda{
+    width: 270px;
+    height: 200px;
+}
+
+#descricao{
+    padding: 12px;
+    text-align: justify;
+    color: black;
+    font-size: 20px;
+}
+
+#textoC{
+    font-size: 30px;
+    text-align: justify;
+}
+
+
+#botaoAmarelo{
+    width: 100px;
+    height: 100px;
+    border: 5px solid #FFE500;
+    box-shadow: 10px 10px 10px 0px;
+    background-color: #D5C95D;
+    margin: 20px;
+}
+
+#botaoVermelho{
+    width: 100px;
+    height: 100px;
+    border: 5px solid #E21919;
+    box-shadow: 10px 10px 10px 0px;
+    background-color: #DD6F6F;
+    margin: 20px;
+}
+
+#botaoVerde{
+    width: 100px;
+    height: 100px;
+    border: 5px solid #23FF00;
+    box-shadow: 10px 10px 10px 0px;
+    background-color: #61C151;
+    margin: 20px;
+}
+
+.tecla{
+    width: 250px;
+    height: 100px;
+    margin: 0px 0px 0px 150px;
+}
+
+:placeholder-shown{
+    font-size: 30px;
+    text-align: center;
+}
+
+#botaoAzul{
+    width: 100px;
+    height: 100px;
+    border: 5px solid #001AFF;
+    box-shadow: 10px 10px 10px 0px;
+    background-color: #6D79E9;
+    margin: 20px;
+}
+
+#container{
+    width: 800px;
+}
+
+#menuConf{
+    position: absolute;
+    width: 500px;
+    height: 600px;
+    margin: 60px 0px 0px 2050px;
+}
+
+#exit{
+    position: absolute;
+    margin: 0px 0px 0px 250px;
+    font-size: 50px;
+    width: 100px;
+    cursor: pointer;
+}
+
+#exit:hover{
+    background-color: tomato;
+}
+
+#simon{
+    width: 900px;
+    height: 900px;
+    margin: 100px auto;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(43, 42, 41);
+}
+
+
+#menu{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: rgb(43, 42, 41);
+}
+
+#ligar  {
+    position: absolute;
+    border-radius: 20px;
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    margin: -645px 0px 0px 500px;
+    cursor: pointer;
+}
+
+#off{
+    position: absolute;
+    border-radius: 20px;
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    margin: -645px 0px 0px 600px;
+    cursor: pointer;
+}
+
+#start{
+    position: absolute;
+    border-radius: 20px;
+    width: 90px;
+    height: 40px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    margin: -645px 0px 0px 700px;
+    cursor: pointer;
+}
+
+#score{
+    position: absolute;
+    width: 100px;
+    height: 35px;
+    color: brown;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: -730px 0px 0px 595px;
+}
+
+#start:active , #off:active , #ligar:active, #shoop{
+    border-top: 2px;
+    border-bottom: 2px;
+    border-right: 2px;
+    border-left: 2px;
+}
+
+#valor{
+    position: absolute;
+    width: 80px;
+    height: 25px;
+    color: brown;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin: -575px 0px 0px 575px; 
+}
+
+#riqueza{
+    position: absolute;
+    width: 80px;
+    height: 25px;
+    color: brown;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin: -530px 0px 0px 575px; 
+}
+
+#shoop{
+        position: absolute;
+        width: 60px;
+        height: 49px;
+        color: brown;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        margin: -570px 0px 0px 690px; 
+        cursor: pointer;
+}
+
+#imgDiscoNovo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#comprarND{
+    background-color: black;
+    color: whitesmoke;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 25px;
+}
+
+#comprarD{
+    font-size: 30px;
+    position: absolute;  
+    margin: 48px 0px 0px 300px; 
+    border-radius: 50px;
+    cursor: pointer; 
+}
+
+#niveis{
+    background-color: black;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: whitesmoke;
+}
+
+#comprarNiveis{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#nivelNovo{
+    width: 140px;
+    height: 140px;
+}
+
+#valorLvl{
+    font-size: 30px;
+    position: absolute;  
+    margin: 50px 0px 0px 170px;
+}
+
+#comprarN{
+    font-size: 30px;
+    position: absolute;  
+    margin: 48px 0px 0px 300px; 
+    border-radius: 50px;
+    cursor: pointer; 
+}
+
+#compraR{
+    font-size: 30px;
+    color: red;
+}
+
+#compraA{
+    font-size: 30px;
+    color: rgb(98, 39, 235);
+}
+
+#comprarD:hover, #comprarN:hover{
+    background-color: rgb(118, 118, 204);
+}
+
+#valorDisco{
+    font-size: 30px;
+    position: absolute;  
+    margin: 50px 0px 0px 170px;  
+}
+
+.modal {
+    display: none;
+}
+     
+.modal:target {
+    display: flex;
+}
+
+.modal {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 10px 10px 100px 1px;
+    position: absolute;
+    margin: -900px 0px 0px 1100px;
+    width: 450px;
+    height: 500px;
+    border-radius: 50px;
+}
+         
+.modal:target {
+    justify-content: space-around;
+    background-color: rgba(128, 128, 128, 0.295);
+}
+         
+.modal__overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    cursor: default;
+}
+         
+ .modal__content {
+    min-width: 380px;
+    height: 380px;
+    position: relative;
+    background-color:rgba(107, 103, 103, 0.2);
+    padding: 1rem;
+    border-radius: inherit;
+    margin-top: 30px;
+}
+         
+.modal__close {
+    color: initial;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 0.5rem;
+    display: inline-block;
+}
+
